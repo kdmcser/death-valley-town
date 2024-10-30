@@ -238,6 +238,7 @@
 				{
 					"name" : "Marketplace",
 					"description" : "With the Marketplace, you can buy and sell resources (exchange rates increase with each Marketplace you own).",
+					"marketModes" : ["resource-resource", "resource-player"],
 					"cost" :
 					{
 						"wood" : 5,
@@ -254,6 +255,7 @@
 						"ore" : 5,
 						"gold" : 5000
 					},
+					"produce": { "mercury": 1 },
 					"requires" : ["marketplace"],
 					"id" : 15
 				},
@@ -266,6 +268,7 @@
 						"wood" : 5,
 						"gold" : 1000
 					},
+					"warMachine" : "ammoCart",
 					"id" : 16
 				},
 				"hordeHalflings" :
@@ -296,7 +299,6 @@
                                     "gold" : 1500,
                                     "ore" : 5
                               },
-							  "type" : "lookoutTower",
 							  "height" : "high",
 					"id" : 17
 				},
@@ -304,13 +306,13 @@
 				{
 					"description": "The Death Knight Statuary adds +2 to Luck for visiting hero.",
 					"name" : "Death Knight Statuary",
-					"onVisitBonuses": [
+					"bonuses": [
 						{
 							"duration": "ONE_WEEK",
 							"type": "LUCK",
 							"val": 2
 						}
-					]
+					],
                     "cost" : {
 						"gold" : 2000,
 						"ore" : 5
@@ -324,7 +326,7 @@
                               "cost" : {
                                     "gold" : 10000
                               },
-                    "type" : "artifactMerchant",
+					"marketModes" : ["resource-artifact"],
 					"id" : 22
 				},
 				"thievesguild" :
@@ -341,7 +343,7 @@
 				{
 					"description" : "The presence of the Glass Pyramid increases weekly creature generation by 50%, provides your empire with an additional 5000 gold each day. It will also change types of resurrected creatures (Shades or Banshees) from all visiting heroes.",
 					"name" : "Glass Pyramid",
-					"onVisitBonuses": [ { "duration": "PERMANENT", "type": "IMPROVED_NECROMANCY", "subtype": "creature.gghost" } ],
+					"bonuses": [ { "duration": "PERMANENT", "type": "IMPROVED_NECROMANCY", "subtype": "creature.gghost" } ],
 					"id" : 26,
 					"mode" : "grail"
 				},
@@ -648,7 +650,7 @@
 			},
 			"mageGuild" : 5,
 			
-			"musicTheme" : "music/deathvalley/Midnight Crescendo",
+			"musicTheme" : [ "music/deathvalley/Midnight Crescendo" ],
 			"names" :
 			[
 				"D'Spayre",
@@ -1079,7 +1081,6 @@
 			},
 		"tavernVideo" : "TAVERN.BIK",
 		"townBackground": "deathvalley/town-screen/background",
-		"warMachine" : "ammoCart",
 		"hallSlots" : [
 				[
 					[ "villageHall", "townHall", "cityHall", "capitol" ],
