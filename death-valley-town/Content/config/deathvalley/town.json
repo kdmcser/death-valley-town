@@ -306,13 +306,15 @@
 				{
 					"description": "The Death Knight Statuary adds +2 to Luck for visiting hero.",
 					"name" : "Death Knight Statuary",
-					"bonuses": [
-						{
-							"duration": "ONE_WEEK",
-							"type": "LUCK",
-							"val": 2
-						}
-					],
+					"configuration" : {
+						"visitMode" : "bonus",
+						"rewards" : [
+							{
+								"message" : "A sinister aura fills the air. The Death Knight Statuary's power bestows your hero with +2 Luck for the end of the week, tipping the scales of fate in your favor.",
+								"bonuses" : [ { "type" : "LUCK", "val" : 2, "valueType" : "ADDITIVE_VALUE", "duration" : "ONE_WEEK"} ]
+							}
+						]
+					},
                     "cost" : {
 						"gold" : 2000,
 						"ore" : 5
