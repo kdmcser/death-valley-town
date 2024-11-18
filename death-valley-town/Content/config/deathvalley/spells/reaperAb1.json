@@ -24,7 +24,7 @@
 			"affect":[{ "defName":"deathvalley/spells/skill6.def", "verticalPosition":"bottom"}]
 		},
  
-		"flags" : { "offensive": true, "damage": true, "negative" : true, "special" : true, "nonMagical": true },
+		"flags" : { "damage": true, "negative" : true, "special" : true, "nonMagical": true },
 		
 		"targetCondition" : {
 		"noneOf" : {
@@ -56,7 +56,7 @@
 				{
 					"smart": true
 				},
-				"description": "Kill one creature after attack",
+				"description": "Kills one creature after attack",
 	 
 				"battleEffects" : {
 					"directDamage" : {"type":"core:damage", "val": 1, "killByCount" : true, "valueType": 	"INDEPENDENT_MIN"}
