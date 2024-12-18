@@ -3,7 +3,7 @@
 	"description" : "Necro town",
 	"author" : "VCMI ROFL and Turbanellos(Ben Yan), Andruids",
 	"contact" : "forum.vcmi.eu",
-	"version" : "1.47",
+	"version" : "1.48",
 	"modType" : "Town",
 	"compatibility":
 	{
@@ -31,7 +31,8 @@
 		"1.44"	: [ "Updated russian translation" ],
 		"1.45"	: [ "Death Knight Statuary fix and Dark Witch ability fix (by Dark Imagine)" ],
 		"1.46"	: [ "Czech translation by George King" ],
-		"1.47"	: [ "Update to vcmi-1.6 format" ]
+		"1.47"	: [ "Update to vcmi-1.6 format" ],
+		"1.48"	: [ "Czech translation for map" ]
     },
 	"chinese" : {
 		"name" : "死亡谷",
