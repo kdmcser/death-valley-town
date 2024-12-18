@@ -32,7 +32,7 @@
 		"1.45"	: [ "Death Knight Statuary fix and Dark Witch ability fix (by Dark Imagine)" ],
 		"1.46"	: [ "Czech translation by George King" ],
 		"1.47"	: [ "Update to vcmi-1.6 format" ],
-		"1.48"	: [ "Czech translation for map" ]
+		"1.48"	: [ "Czech translation for map - The Fall of the Old Order" ]
     },
 	"chinese" : {
 		"name" : "死亡谷",
