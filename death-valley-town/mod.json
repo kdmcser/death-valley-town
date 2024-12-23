@@ -3,7 +3,7 @@
 	"description" : "Necro town",
 	"author" : "VCMI ROFL and Turbanellos(Ben Yan), Andruids",
 	"contact" : "forum.vcmi.eu",
-	"version" : "1.48",
+	"version" : "1.49",
 	"modType" : "Town",
 	"compatibility":
 	{
@@ -32,7 +32,8 @@
 		"1.45"	: [ "Death Knight Statuary fix and Dark Witch ability fix (by Dark Imagine)" ],
 		"1.46"	: [ "Czech translation by George King" ],
 		"1.47"	: [ "Update to vcmi-1.6 format" ],
-		"1.48"	: [ "Czech translation for map - The Fall of the Old Order" ]
+		"1.48"	: [ "Czech translation for map - The Fall of the Old Order" ],
+		"1.49"	: [ "Fix Grail not to produce gold" ]
     },
 	"chinese" : {
 		"name" : "死亡谷",
