@@ -234,5 +234,11 @@
     "spell.death-valley-town.boneSkill01.name": "Wyprostowany szkielet",
     "spell.death-valley-town.boneSkill02.name": "Nieświęta aura",
     "spell.death-valley-town.plagueAb1.name": "Plaga",
-    "spell.death-valley-town.reaperAb1.name": "Szkodliwy dotyk"
+    "spell.death-valley-town.reaperAb1.name": "Szkodliwy dotyk",
+    "artifact.death-valley-town.necroAmulet.description": "{Serce Cienia}\r\n\r\nSerce Cienia pozwala na wskrzeszanie silniejszych nieumarłych jednostek. Poziom umiejętności określa, jaki typ zostaje wskrzeszony. Podstawowy: Łucznicy Kości, Zaawansowany: Wyrzutki, Ekspercki: Mroczne Wiedźmy.",
+    "artifact.death-valley-town.necroAmulet.event": "Znalazłeś dziwny amulet w grobowcu. Przyniesie ci wielkie korzyści.",
+    "artifact.death-valley-town.necroAmulet.name": "Serce Cienia",
+    "artifact.death-valley-town.necroRing.description": "{Pierścień Nekromancji}\r\n\r\nNoszony na palcu, ten pierścień zwiększa umiejętność nekromancji o 10%.",
+    "artifact.death-valley-town.necroRing.event": "Zostałeś zaatakowany przez zombie podczas spaceru po cmentarzu. Łatwo pokonałeś tego biednego napastnika i znalazłeś pierścień noszony na jego palcu. To był powód, dla którego nie spoczywał w pokoju.",
+    "artifact.death-valley-town.necroRing.name": "Pierścień Nekromancji"
 }
